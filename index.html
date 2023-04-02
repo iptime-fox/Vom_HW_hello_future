@@ -4,12 +4,181 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template</title>
+  <title>Hello Future</title>
+
+   <!-- Favicon Link -->
+   <link rel="shortcut icon" href="img/nct.svg">
+   <link rel="apple-touch-icon" href="img/nct.svg">
+ 
+
+   <!-- Font link -->
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+   <link
+     href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+     rel="stylesheet"
+   />
+
+   <!-- Remix Icon Link -->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+ 
+   <!-- Swiper Slider Link -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+  <!-- Css link -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/setting.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
   
+  <!-- Pre-Header -->
+  <div class="pre-header">
+    <div class="container">
+      <div class="left-contact">
+        <ul>
+          <li><a href="#"><i class="fa fa-phone"></i>+82 02-6240-9800 | </a></li>
+          <li><a href="#"><i class="fa fa-envelope"></i>nctdream@email.com | </a></li>
+          <li><a href="#"><i class="ri-map-2-line"></i>SM Entertainment 83-21, Seoul</a></li>
+        </ul>
+      </div>
+      <div class="right-sns">
+        <ul>
+          <li><a href="https://www.youtube.com/@NCTDREAM"><i class="ri-youtube-fill"></i></a></li>
+          <li><a href="https://twitter.com/NCTsmtown_DREAM?s=20"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/nct_dream/"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://www.facebook.com/NCTDREAM.smtown"><i class="fa fa-facebook"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
+  <!-- Main-Header -->
+<header class="main-header header-fixed">
+  <div class="container">
+    <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
+    <ul class="nav">
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">SERVICES</a></li>
+      <li><a href="#">PROJECTS</a></li>
+      <li><a href="#">PAGES</a></li>
+      <li><a href="#">INFOS</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+  </div>
+</header>
+  <!-- Landing section -->
+  <section class="landing-section section">
+    <div class="container">
+      <div class="slider-text">
+        
+      </div>
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="slider-image">
+              <img src="img/main1.jpg" alt="nct-dream">
+              
+            </div>
+           
+          </div>
+          <div class="swiper-slide">
+            <div class="slider-image">
+              <img src="img/main2.jpg" alt="nct-dream">
+              
+            </div>
+            
+          </div>
+         
+          <div class="swiper-slide">
+            <div class="slider-image">
+              <img src="img/main3.jpg" alt="nct-dream">
+              <!-- <div class="slider-text">
+              
+              </div> -->
+            </div>
+            
+          </div>
+
+          <div class="swiper-slide">
+            <div class="slider-image">
+              <img src="img/main4.jpg" alt="nct-dream">
+              <!-- <div class="slider-text">
+              
+              </div> -->
+            </div>
+            
+          </div>
+
+          <div class="swiper-slide">
+            <div class="slider-image">
+              <img src="img/main5.jpg" alt="nct-dream">
+              <!-- <div class="slider-text">
+              
+              </div> -->
+            </div>
+            
+          </div>
+    
+        </div>
+        <!-- end of swiper wrapper -->
+      </div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev slider-btn"></div>
+      <div class="swiper-button-next slider-btn"></div>
+      
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- to-top button -->
+<div id="top" class="arrowBtn">
+  <button><i class="ri-arrow-up-s-line"></i></button>
+</div>
+<div id="bottom" class="arrowBtn">
+  <button><i class="ri-arrow-down-s-line"></i></button>
+</div>
+
+    <!-- Swiper Slider Link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   
+    <script>
+  
+      const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    // direction: 'vertical',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+   
+  });
+    </script>
+
+    <!-- js link -->
+    <script src="js/header.js"></script>
 </body>
 </html>

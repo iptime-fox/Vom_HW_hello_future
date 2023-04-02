@@ -1,0 +1,47 @@
+/* common style */
+.container{width: 100%; height: auto; max-width: 1280px; margin: auto; padding: 0 ; }
+.section{width: 100%; height: auto; padding: 0 ;}
+
+/* color */
+/* 진파랑 #04c4fc , 연하늘 #04dbfb , 노랑  #f8e753 , 형광연두 #6cec7c */
+
+/* pre-header style */
+.pre-header{background-color: #fff; padding: 15px 8rem; width: 100%; transition: all .4s;}
+.pre-header .container{display: flex; align-items: center;justify-content: space-between;}
+.pre-header .container a{font-size: 14px; color: #04dbfb; transition: all .3s;}
+.pre-header .container a:hover{color: #0d87ac;}
+.pre-header .container i{font-size: 18px; margin-right: 10px; }
+.pre-header .container ul{display: flex; column-gap: .5rem;}
+
+
+/* main-header sytle */
+.main-header{background: linear-gradient(90deg, #04dbfb, #f8e753); width: 100%; padding: 0 8rem;position: fixed; transition: all .4s;z-index: 100;}
+.main-header .container{display: flex; justify-content: space-between; align-items: center;}
+.logo img{width: 120px; height: auto;padding: .5rem 0;}
+.nav{display: flex;}
+.nav a{color: #fff; font-size: 16px;font-weight: 600; transition: all .3s; margin-left: 2rem;}
+.nav a:hover{color: #0d87ac;}
+
+
+/* landing-section style */
+.landing-section{width: 100%; height: 100vh; min-height: 100vh; position: relative;}
+.landing-section .container{position: relative;display: flex; align-items: center;justify-content: center;}
+.landing-section .swiper-slide{width: 100%; height: auto; display: flex; justify-content: center; align-items: center;}
+.landing-section img{width: 100%;height: auto; max-height: 720px; overflow: hidden;}
+
+.landing-section .slider-btn{color: #000; width: 60px; height: 60px; background: #fff; border-radius: 50%; box-shadow: 0 0 2px #666; }
+.swiper-button-next:after, .swiper-button-prev:after{font-size: 1.25rem;}
+
+
+@keyframes show-up{
+  0%{transform: translateY(40px); opacity: 0;}
+  100%{transform: translateY(0); opacity: 1;}
+}
+
+
+
+/* top btn */
+.arrowBtn{transition: all 0.4s;}
+.arrowBtn button{border: 0; background: #f8e753; border-radius: 50%; font-size: 16px; width: 50px;height: 50px; display: flex; align-items: center; justify-content: center; position: fixed; bottom: 20px; right: 20px;font-weight: 600; color: #666; z-index: 10000; }
+.arrowBtn i{padding: .25rem;}
+#top button{bottom: 75px;}
