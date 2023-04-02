@@ -1,6 +1,19 @@
+@media screen and (max-width : 1200px) {
+  .services .right-text{top: 1rem; padding: 8; align-items: center;}
+  .section-heading{text-align: center;}
+  .line{display: none;}
+  .top-item{padding: 0.5rem;}
+  .bottom-item{padding: 0 .5rem;}
+  .item-box{margin-left: .5rem;}
+}
+
 @media screen and (max-width : 980px) {
 .pre-header{padding: 15px 1rem;}
 .main-header{padding: 0 1rem;}
+.text-wrapper{display: none;}
+
+.section-heading{display: none;}
+.item3, .item1{margin-left: 0;}
 }
 
 @media screen and (max-width : 786px) {
@@ -11,6 +24,10 @@
 .landing-section .slider-btn{ width: 30px; height: 30px;
 }
 .swiper-button-next:after, .swiper-button-prev:after{font-size: .55rem;}
+.item-box{width: 150px;height: 150px;}
+.item-box img{width: 50px;}
+
+
 }
 
 @media screen and (max-width : 600px) {
