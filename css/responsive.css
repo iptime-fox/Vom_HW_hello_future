@@ -32,7 +32,7 @@
 .item-box img{width: 50px;}
 
 .item .about-member{display: none;}
-.item{margin: 2rem 1rem;}
+/* .item{margin: 2rem 1rem;} */
 
 }
 
@@ -41,4 +41,4 @@
 .main-header .container{display: flex; justify-content: center;}
 .logo img{width: 70px; height: auto;padding: .5rem 0;}
 }
-.item{margin: 2rem .5rem;}
+/* .item{margin: 2rem .5rem;} */
