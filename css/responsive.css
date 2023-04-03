@@ -14,11 +14,15 @@
 
 .section-heading{display: none;}
 .item3, .item1{margin-left: 0;}
+
+.item .about-member h4{font-size: 14px;}
+.item .about-member{height: 70px;}
+.about-member a{width: 30px; height: 30px; font-size: 16px;}
 }
 
 @media screen and (max-width : 786px) {
-  
-.pre-header{display: none;}
+.pre-header{display: none; }
+.pre-header *{display: none;}
 .main-header a{font-size: 14px;}
 
 .landing-section .slider-btn{ width: 30px; height: 30px;
@@ -27,6 +31,8 @@
 .item-box{width: 150px;height: 150px;}
 .item-box img{width: 50px;}
 
+.item .about-member{display: none;}
+.item{margin: 2rem 1rem;}
 
 }
 
@@ -35,3 +41,4 @@
 .main-header .container{display: flex; justify-content: center;}
 .logo img{width: 70px; height: auto;padding: .5rem 0;}
 }
+.item{margin: 2rem .5rem;}

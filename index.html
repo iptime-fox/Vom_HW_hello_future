@@ -29,6 +29,8 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/setting.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="/slick/slick-theme.css">
+  <link rel="stylesheet" href="/slick/slick.css">
 </head>
 <body>
   
@@ -137,6 +139,71 @@
      
   </section>
 
+<!-- projects section -->
+<div class="projects section">
+  <div class="container">
+    <div class="section-heading">
+      <h2>Discover our <em>Work</em> &amp;<br>
+      <span>Projects</span></h2>
+      <div class="line"></div>
+      <p>Soldiers knocking doors down, yelling out! Here we go !!!</p>
+    </div>
+  </div>
+  <div class="slide-container">
+    <div class="slick-items slick">
+      <div class="item">
+        <img src="img/mark.jpeg" alt="mark">
+        <div class="about-member">
+          <h4>Mark <br>Leader & Rapper</h4>
+          <a href="https://www.instagram.com/onyourm__ark/"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/renjun.jpeg" alt="mark">
+        <div class="about-member">
+          <h4>Renjun <br>Main-Vocal</h4>
+          <a href="https://www.instagram.com/onyourm__ark/"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/jeno.jpeg" alt="mark">
+        <div class="about-member">
+          <h4>Jeno <br>Rapper & Dancer</h4>
+          <a href="https://www.instagram.com/onyourm__ark/"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/haechan.jpeg" alt="mark">
+        <div class="about-member">
+          <h4>Haechan <br>Main-Vocal</h4>
+          <a href="https://www.instagram.com/onyourm__ark/"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/jaemin.jpeg" alt="mark">
+        <div class="about-member">
+          <h4>Jaemin <br>Rapper & Dancer</h4>
+          <a href="https://www.instagram.com/onyourm__ark/"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/chenle.jpeg" alt="mark">
+        <div class="about-member">
+          <h4>Chenle <br>Main-Vocal</h4>
+          <a href="https://www.instagram.com/onyourm__ark/"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/jisung.jpeg" alt="mark">
+        <div class="about-member">
+          <h4>Jisung <br>Main-Dancer</h4>
+          <a href="https://www.instagram.com/onyourm__ark/"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- service section -->
 <div class="services section">
   <div class="container">
@@ -214,7 +281,51 @@
   });
     </script>
 
+    <!-- jQuery CDN LINK -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+   <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slick-items').slick({
+        setting-name: setting-value
+      });
+    });
+  </script>
+   </script>
+   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+   <script type="text/javascript" src="slick/slick.min.js"></script>
+ 
     <!-- js link -->
     <script src="js/header.js"></script>
+    <!-- <script src="js/slick.js"></script> -->
+    <script>
+      $('.slick-items').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1,
+      },
+    },
+  ],
+});
+
+    </script>
+   
 </body>
 </html>
