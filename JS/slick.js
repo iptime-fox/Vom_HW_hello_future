@@ -1,7 +1,8 @@
-$('.center').slick({
+$('.slick').slick({
   centerMode: true,
   centerPadding: '60px',
   slidesToShow: 3,
+  autoplay: true,
   responsive: [
     {
       breakpoint: 768,
