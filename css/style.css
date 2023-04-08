@@ -18,10 +18,15 @@
 .main-header{background: linear-gradient(90deg, #04dbfb, #f8e753); width: 100%; padding: 0 8rem;position: fixed; transition: all .4s;z-index: 1000; }
 .main-header .container{display: flex; justify-content: space-between; align-items: center;}
 .logo img{width: 120px; height: auto;padding: .5rem 0;}
-.nav{display: flex;}
+.nav{display: flex; height: 86.66px; align-items: center;}
+.nav>li{height: 86.66px; display: flex; align-items: center;}
 .nav a{color: #fff; font-size: 16px;font-weight: 600; transition: all .3s; margin-left: 2rem;}
 .nav a:hover{color: #0d87ac;}
 
+.sub-menu{width:200px ;height: auto; background: #fff;opacity: 0.8; color: #0d87ac; top: 87px; position: absolute;display: flex; flex-direction: column; align-items:flex-start;border: 1px solid #f8e753; font-size: 16px; font-weight: 600; display: none; border-radius: 0 0 .5rem .5rem ; }
+.sub-menu li{width: 200px; padding: 1rem 2rem;}
+.sub-menu li:hover{background: #999; color: #fff;}
+.pages:hover .sub-menu{display: block;}
 
 /* landing-section style */
 .landing-section{width: 100%;position: relative;}
@@ -48,11 +53,12 @@
 .slider-text p{font-size: 18px;line-height:1.5rem;}
 
 /* service section */
-.services{width: 100%; height: 100vh; padding: 0; transition: all .5s;position: relative;display: flex; align-items: center;color: #fff;justify-content: center;left: 0; top: 0; background-image: url(/img/background.jpeg);
+.services{width: 100%; height:auto; padding: 0; transition: all .5s;position: relative;display: flex; align-items: center;color: #fff;justify-content: center;left: 0; top: 0; background-image: url(/img/background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   }
+.services .container{margin: 2rem;}
 
 .services img{width: 100%; position: absolute;height: auto;}
 .services .right-text{z-index: 25; position: relative; display: flex;flex-direction: column;align-items: end; _top: 100px; padding: 0 8rem;}
