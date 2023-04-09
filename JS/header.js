@@ -3,7 +3,7 @@ const mainHeader = document.querySelector('.main-header');
 const toTop = document.querySelector('#top');
 const toBottom = document.querySelector('#bottom');
 const preHeaderHeight = preHeader.offsetHeight;
-console.log(preHeaderHeight);
+// console.log(preHeaderHeight);
 
 window.addEventListener('scroll', function () {
   const scrY = window.scrollY;
