@@ -81,9 +81,9 @@
 
 /* top btn */
 .arrowBtn{transition: all 0.4s;}
-.arrowBtn button{border: 0; background: #f8e753; border-radius: 50%; font-size: 16px; width: 50px;height: 50px; display: flex; align-items: center; justify-content: center; position: fixed; bottom: 20px; right: 20px;font-weight: 600; color: #666; z-index: 10000; }
+.arrowBtn button{border: 0; background: #f8e753; border-radius: 50%; font-size: 20px; width: 40px;height: 40px; display: flex; align-items: center; justify-content: center; position: fixed; bottom: 20px; right: 20px;font-weight: 600; color: #666; z-index: 10000; }
 .arrowBtn i{padding: .25rem;}
-#top button{bottom: 75px;}
+#top button{bottom: 65px;}
 
 
 
@@ -129,4 +129,6 @@
 
 
 /* footer */
-footer{width: 100%; height: 100px; position: absolute; display: flex; align-items: center; justify-content: center; text-align: center;color: #04dbfb; } 
+footer{width: 100%; height: 100px; position: absolute; display: flex; align-items: center; justify-content: center; text-align: center;color: #04dbfb; transition: all 0.3s;} 
+
+.footer-wrapper:hover{color: #0d87ac;}

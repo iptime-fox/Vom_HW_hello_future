@@ -12,12 +12,12 @@ window.addEventListener('scroll', function () {
     // preHeader.style.display = 'none';
     mainHeader.style.top = '0';
     mainHeader.style.position = 'fixed';
-    // toTop.style.display = 'flex';
+    toTop.style.display = 'flex';
   } else {
     // preHeader.style.display = 'block';
     mainHeader.style.top = '';
     mainHeader.style.position = 'relative';
-    // toTop.style.display = 'none';
+    toTop.style.display = 'none';
     // toBottom.style.display = 'flex';
   }
 });
