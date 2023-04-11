@@ -39,7 +39,7 @@
 .landing-section .slider-btn{ width: 30px; height: 30px;
 }
 .swiper-button-next:after, .swiper-button-prev:after{font-size: .25rem;}
-.services .right-text{justify-content: center;}
+
 .top-item, .bottom-item{flex-direction: column; margin: 0;}
 .item-box{width: 500px;height: 200px;display: flex; justify-content: center; margin: 0; margin-left: 0;}
 .item-box:nth-child(1), .item-box:nth-child(3){margin-bottom: .5rem;}
