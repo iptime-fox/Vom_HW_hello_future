@@ -15,14 +15,16 @@
 .main-header{padding: 0 1rem;}
 .text-wrapper p{display: none;}
 
+.services .right-text{align-items:center;}
 .section-heading p{display: none;}
-.section-heading h2{display: flex; align-items: center; justify-content: center; font-size: 20px;}
+.services .section-heading h2{display: flex; align-items: center; justify-content: center; font-size: 20px;}
 .projects .section-heading{margin: 1.5rem 0 .25rem 0;}
 .item3, .item1{margin-left: 0;}
 
 .item .about-member h4{font-size: 14px;}
 .item .about-member{height: 70px;}
 .about-member a{width: 30px; height: 30px; font-size: 16px;}
+.item{margin: 1rem;}
 
 .contact-wrapper{padding: 2rem 2rem;}
 }
@@ -36,9 +38,10 @@
 
 .landing-section .slider-btn{ width: 30px; height: 30px;
 }
-.swiper-button-next:after, .swiper-button-prev:after{font-size: .55rem;}
+.swiper-button-next:after, .swiper-button-prev:after{font-size: .25rem;}
+.services .right-text{justify-content: center;}
 .top-item, .bottom-item{flex-direction: column; margin: 0;}
-.item-box{width: 500px;height: 200px;display: flex; justify-content: center; margin: 0; }
+.item-box{width: 500px;height: 200px;display: flex; justify-content: center; margin: 0; margin-left: 0;}
 .item-box:nth-child(1), .item-box:nth-child(3){margin-bottom: .5rem;}
 .item-box img{width: 50px;display: flex; justify-content: center; align-items: center; margin-top: 50px; margin-left: 0; } 
 .item-box h4{margin-bottom: 50px; font-size: 18px; }
@@ -47,11 +50,12 @@
 .projects .section-heading{margin: 1rem 0 .1rem 0;}
 
 
+
 .item .about-member{display: none;}
-/* .item{margin: 2rem 1rem;} */
+
 
 .contact-info{flex-direction: column;}
-.left-map{width: 80%;}
+.left-map{width: 100%;}
 .right-form{width: 90%;margin-right: 0;}
 }
 
@@ -59,6 +63,5 @@
 @media screen and (max-width : 600px) {
 .main-header .nav a{display: none;}
 .main-header .container{display: flex; justify-content: center;}
-.logo img{width: 70px; height: auto;padding: .5rem 0;}
+.logo img{width: 70px; height: auto;padding: .25rem 0;}
 }
-/* .item{margin: 2rem .5rem;} */
