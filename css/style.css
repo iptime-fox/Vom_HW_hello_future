@@ -1,6 +1,6 @@
 /* common style */
-.container{width: 100%; height: auto;margin: auto; padding: 0 ; max-width: 1280px;}
-.section{width: 100%; height: auto; padding: 0 ;}
+.container, .section{width: 100%; height: auto;margin: auto; padding: 0 ; max-width: 1280px;}
+
 
 /* color */
 /* 진파랑 #04c4fc , 연하늘 #04dbfb , 노랑  #f8e753 , 형광연두 #6cec7c */
@@ -29,11 +29,11 @@
 .pages:hover .sub-menu{display: block;}
 
 /* landing-section style */
-.landing-section{width: 100%;position: relative;max-width: 1280px;margin: auto;}
+.landing-section{width: 100%;position: relative;_max-width: 1280px;margin: auto;}
 .landing-section .pages{position: relative;display: flex; align-items: center;justify-content: center;}
 .landing-section img{width: 100%;height: auto; overflow: hidden;}
 
-.swiper-button-next:after, .swiper-button-prev:after{color: white; font-size: 2rem;}
+.swiper-button-next:after, .swiper-button-prev:after{color: #fff; font-size: 2rem;}
 
 
 
@@ -51,7 +51,7 @@
 .slider-text p{font-size: 18px;line-height:1.5rem;}
 
 /* service section */
-.services{width: 100%; height:auto; padding: 0; transition: all .5s;position: relative;display: flex; align-items: center;color: #fff;justify-content: center;left: 0; top: 0; background-image: url(/img/background1.jpeg);max-width: 1280px; margin: auto;
+.services{width: 100%; height:auto; padding: 0; transition: all .5s;position: relative;display: flex; align-items: center;color: #fff;justify-content: center;left: 0; top: 0; background-image: url(/img/background1.jpeg);_max-width: 1280px; margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -104,7 +104,7 @@
 .projects{max-width: 1280px;margin: auto;}
 
 /* contact section */
-.contact-section{width: 100%;height: auto; padding: 0;max-width: 1280px; margin: auto; }
+.contact-section{width: 100%;height: auto; padding: 0;_max-width: 1280px; margin: auto; }
 .contact-wrapper{width: 100%; padding:  5rem 8rem; }
 .contact-info{width: 100%;display: flex;align-items: center; justify-content: center;border: 1px solid #04e4c8; box-shadow: 0px 0px 10px #cbcbcb; border-radius: 1rem;}
 .left-map{width: 40%;padding: 2rem;}
